@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(void)
+{
+  int n=100;
+  printf("So nguyen co 2 chu so va la boi so cua 7: ");
+  for (int i=10;i<=n;i++)
+  {
+    if(i%7==0)
+    {
+      printf("%d ",i);
+    }
+  }
+}
